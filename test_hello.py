@@ -1,4 +1,4 @@
-from hello import add
+from hello import odds
 
 
 def test_add():

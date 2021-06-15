@@ -1,7 +1,12 @@
 # print_odd_numbers.py
 
-lower_limit=int(input("Enter the lower limit for the range:"))
-upper_limit=int(input("Enter the upper limit for the range:"))
-for j in range(lower_limit,upper_limit+1):
-    if(j%2!=0):
-        print(j)
+def odds(lLimit,uLimit):
+    for j in range(lLimit,uLimit+1):
+        if(j%2!=0):
+            print(j)
+
+lLimit=int(input("Enter the lower limit for the range:"))
+uLimit=int(input("Enter the upper limit for the range:"))
+
+odds(lLimit,uLimit)
+

@@ -6,7 +6,7 @@ def odds(lLimit,uLimit):
         if(j%2!=0):
             result += j
 
-lLimit=int(input("Enter the lower limit for the range:"))
+lLimit=int(input("Enter the lower pipi for the range:"))
 uLimit=int(input("Enter the upper limit for the range:"))
 
 odds(lLimit,uLimit)
